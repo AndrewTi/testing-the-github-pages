@@ -1,0 +1,238 @@
+  @import url(http://allfont.ru/allfont.css?fonts=open-sans);
+
+html {
+  overflow-x:hidden
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#body {
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 699px;
+  background: url("../images/header_img.png") center no-repeat;
+  position: relative;;
+}
+
+#menu {
+  width: 1170px;
+  height: 90px;
+  margin: auto;
+}
+
+#logo {
+  line-height: 90px;
+  float: left;
+  margin-left: 20px;
+}
+
+#logo img {
+  height: 30px;
+  vertical-align: middle;;
+}
+
+
+#menu #button_links {
+  float: left;
+  margin-left: 40px;
+  display: block;
+}
+
+#menu #button_links li {
+  display: inline-block;
+  margin-left: 13px;
+
+}
+
+#menu #button_links li a {
+  text-decoration: none;
+  color: grey;
+  line-height: 5;
+  vertical-align: middle;
+  font-size: 13px;
+}
+
+#menu #button_call {
+  width: 155px;
+  height: 45px;
+  float: right;
+  margin-top: 18.5px;
+}
+
+#menu #button_call a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #36AEEA;
+  line-height: 45px;
+  font-size: 14px;
+  vertical-align: middle;
+  border: 3px #36AEEA solid;
+  border-radius: 3px;
+}
+
+#header_blockText {
+  width: 1170px;
+  height: 330px;
+  margin: auto;
+  margin-top: 135px;
+}
+
+
+#line, #line2 {
+  width: 753px;
+  height: 3px;
+  background: white;
+  float: left;
+}
+ #line2 {
+   margin-left: 198px;
+   width: 219px;
+ }
+
+#block_text {
+  width: calc(100%-3px);
+  height: 100%;
+  border: 3px white solid;
+  border-top: none;
+}
+
+#text {
+  width: 500px;
+  height: 200px;
+  margin-left: 40px;
+}
+
+#text_img img {
+  margin-top: 30px;
+}
+
+p {
+  width: 450px;
+  font-size: 20px;
+  color: #A2ACB2;
+}
+
+#button_orderNow {
+  width: 235px;
+  height: 55px;
+  margin-left: 40px;
+  margin-top: 20px;
+  background: #36AEEA;
+}
+
+#button_orderNow a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 55px;
+  vertical-align: middle;
+  letter-spacing: 2.5px;
+}
+
+
+#block_aboutUS {
+  width: 100%;
+  height: 700px;
+  background: #F6F4F4;
+}
+
+#content_aboutUS {
+  width: 1170px;
+  height: 100%;
+  margin: auto;
+  background: url("../images/about_background.png") right no-repeat;
+}
+
+#preOrder_aboutUS {
+  width: 400px;
+  position: absolute;
+}
+
+#preOrder_aboutUS p {
+  width: 380px;
+  font-size: 16px;
+}
+
+#preOrder_aboutUS h1 {
+  display: block;
+  margin-top: 270px;
+  color: #2C2E37;
+}
+
+#readMore_aboutUS {
+  width: 130px;
+  height: 40px;
+  margin-top: 40px;
+  background: #36AEEA;
+  border-radius: 3px;
+}
+
+#readMore_aboutUS a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: 40px;
+}
+
+#images_aboutUS {
+  float: left;
+  background: black;
+}
+
+#images_aboutUS img {
+  position: absolute;
+}
+
+#images_aboutUS img:first-of-type {
+  margin-top: -30px;
+  margin-left: 600px;
+}
+
+#images_aboutUS img:last-of-type {
+  margin-top: 250px;
+  margin-left: 500px;
+}
+
+#block_journal {
+  width: 100%;
+  height: 1065px;
+  position: absolute;
+  background: white;
+}
+
+#text_journal {
+  width: 265px;
+  height: 40px;
+  margin: auto;
+  font-family: "Open sans";
+  text-align: center;
+  margin-top: 115px;
+  font-size: 35px;
+  color: rgb(44, 46, 55);
+  font-weight: bold;
+}
+
+
+
+
+#content_journal {
+  width: 1140px;
+  height: 760px;
+  background: black;
+  margin: auto;
+  margin-top: 80px;
+
+}
